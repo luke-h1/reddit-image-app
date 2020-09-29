@@ -17,6 +17,39 @@ body {
   padding: 15px;
 }
 
+.form-container {
+  min-height: 15vh;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userQuery {
+  padding: 15px;
+  outline: 0;
+  font-size: 20px;
+  border: 1px solid #333;
+  border-radius: 10px;
+}
+
+.form-submit {
+  margin-top: 1rem;
+  display: block;
+  text-align: center;
+  background-color: #333;
+  padding: 5px;
+  width: 10%;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  outline: 0;
+}
+
+.form-submit:active {
+  transform: scale(0.93);
+}
+
 .container {
   margin: 1em 1em 1em 2em;
 }
@@ -74,4 +107,37 @@ body {
 .badge-success {
   background: #28a745;
   color: #fff;
+}
+
+.error {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: red;
+  margin: 2em 0em 2em 0em;
+}
+
+@media (max-width: 1280px) {
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 1024px) {
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 768px) {
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (max-width: 640px) {
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
