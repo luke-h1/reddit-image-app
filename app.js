@@ -38,7 +38,12 @@ function showRedditData(data) {
       <img src="${item.data.thumbnail}" alt="">
     </div>
     <p> ${item.data.title}</p>
+    <br /> 
+    <br /> 
     <p>Subreddit: ${item.data.subreddit}</p>
+    <br /> 
+    <br /> 
+    <br /> 
     <div class="badge-container">
       <span class="badge badge-primary">Votes: ${item.data.ups}</span>
       <span class="badge badge-success">Score: ${item.data.score}</span>
