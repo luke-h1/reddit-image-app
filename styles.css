@@ -63,14 +63,12 @@ body {
 .card {
   width: 250px;
   height: 550px;
-  background-color: #EDBFB7;
+  background-color: #0f3460;
   color: #fff;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-
-  
 }
 
 .card img {
@@ -78,7 +76,6 @@ body {
   height: 50%;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-
 }
 
 .card p {
@@ -87,7 +84,7 @@ body {
 }
 
 .badge-container span {
-  display: block; 
+  display: block;
   padding-bottom: 1em;
 }
 
